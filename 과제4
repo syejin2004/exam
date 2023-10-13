@@ -1,0 +1,12 @@
+로그 이력과 과거 여행
+ -로그의 옵션
+   -명령 git log: 기본적으로 가장 최근의 커밋부터 표시
+ -옵션
+   -$ git log --graph -> 문자, 그림으로 로그 이력 그리기
+   -$ git log --reverse -> 오래된 커밋부터 표시, --graph와 함께 사용 할 수 없음
+   -$ git log --all -> 모든 브랜치의 로그 이력 표시
+   -$ git log -n ->최근 n개의 로그 이력 표시
+-명령 checkout
+   -$ git checkout HEAD~ -> HEAD 이전 커밋으로 이동
+   -$ git checkout - -> 이전 checkout으로 이동
+   -$ git checkout main -> 브랜치의 마지막 커밋으로 이동
