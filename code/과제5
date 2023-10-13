@@ -1,0 +1,8 @@
+summary
+ -저장소 생성 : $ git init basic
+ -깃 저장소에 저장 : $ git add, commit
+ -모두 커밋 이력 보기 : $ git log -> --oneline --graph --all -n
+ -특정한 커밋 이력 보기 : $ git show[HEAD] -> --oneline
+ -바로 이전 버전으로 가기 : $ git checkout HEAD~
+ -다시 최신 버전으로 돌아오기 : $ git checkout main
+ -다시 checkout 이전으로 돌아가기 : $ git checkout -
