@@ -1,0 +1,16 @@
+파일 삭제 rm과 복원 restore
+-작업 디렉토리에서 파일 삭제
+ -$ rm f
+-작업 디렉토리와 스테이징 영역에서 파일 삭제
+ -$ git rm f
+-스테이징 영역에서만 파일 삭제
+ -$ git rm --cached f
+-스테이징 영역의 상태를 작업 디렉토리에 복원
+ -$ git restore f
+-깃 저장소 상태를 스테이징 영역에 복원
+ -$ git restore --staged f
+-깃 저장소 상태를 작업 디렉토리에 복원
+ -$ git restore --source=HEAD --worktree f
+ -$ git restore --source=HEAD f
+-깃 저장소 상태를 스테이징 영역과 작업 디렉토리에 함께 복원
+ -$ git restore --source=HEAD --staged --worktree f
