@@ -1,0 +1,13 @@
+-브랜치 개요와 관리
+ -$ git branch
+  --저장소 목록 보기
+ -$ git branch <new-branch>
+  --저장소 생성만
+ -$ git checkout -b <new-branch>
+  --저장소 생성하고 이동
+ -$ git switch -c <new-branch>
+  --저장소 생성하고 이동
+ -$ git branch -d branch-name
+  --저장소 삭제
+ -$ git branch -D branch-name
+  --저장소 삭제, 강제 삭제
