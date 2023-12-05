@@ -1,0 +1,13 @@
+명령 push에서 인자 생략하기
+-옵션 -u 사용
+-대부분의 경우에는 로컬 저장소와 원격 저장소에서 동일한 브랜치 이름을
+ 사용하기 때문에 항상 현재 브랜치를 기준으로 git push 명령어가 작동한다면 매우 편리
+
+git pull = git fetch + git merge
+-git pull 명령
+ -fetch 명령과 병합하는 merge 명령이 순차적으로 진행
+
+fetch
+-원격 저장소에서 로컬 저장소로 소스를 가져아 병합을 미수행하는 명령
+-$ git fetch<remote>
+-fetch후 origin/main, origin/HEAD가 더 최신의 위치에 있음
