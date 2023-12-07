@@ -1,0 +1,12 @@
+Stash 목록 보기
+-$ git stash list
+ -가장 최신 것이 0번
+
+최근 임시저장 내용을 삭제
+-$ git stash drop
+
+지정된 임시저장 내용을 삭제
+-$ git stash drop stash@{n}
+
+모든 stash 목록을 모두 제거
+-$ git stash clear
