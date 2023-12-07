@@ -1,0 +1,20 @@
+깃 4영역
+-깃 3영역 + stash 영역
+
+깃 영역의 가장 단순한 상태
+-NOthing to commit, working tree is clean
+
+Git Stash
+-사전적 의미
+ -놓다, 남겨두다, 감추다, 안전한 곳에 숨겨두다
+ -커밋할 필요 없이 파일의 변경사항을 숨기거나 비밀리에 저장할 수 있는 강력한 도구
+ -따로 안전한 곳에 저장했다가 다시 가져올 수 있는 기능
+
+Stash 저장 구조
+-깃에서 임시저장소에 저장
+
+Git stash 필요성
+-브랜치 이동 또는 이전 커밋으로 이동
+ -$ git swutch bname
+ -$ git checkout HEAD~
+
