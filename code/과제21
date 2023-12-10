@@ -1,0 +1,8 @@
+3-way 충돌 발생
+-$ git merge hotfix
+
+충돌한 파일을 인지하고 파일 숙정
+-$ code file
+
+수정 후 다시 add,commit
+-$ git merge --abort
