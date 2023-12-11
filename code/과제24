@@ -1,0 +1,7 @@
+기준 브랜치에서 main 브랜치 rebase 병합
+-$ git cehckout topic
+-$ git merge main
+
+다시 main으로 돌아와 fast-forward 병합진향
+-$ git cehckout main
+-$ git merge topic
